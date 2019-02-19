@@ -1,4 +1,4 @@
-{% set version = '0.9.0' %}
+{% set version = "0.9.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggformula_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggformula/ggformula_{{ version }}.tar.gz
-  sha256: 701a70fe20841a1da3120f90c46108c76321d70c9981832f9b86e5e5a46bb7de
+  sha256: 9d4543cfe64f519d0ab7b4df55a48f237e52fc147d29f3ec5315d20431eacf06
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
