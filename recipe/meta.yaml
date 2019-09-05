@@ -16,14 +16,11 @@ build:
   noarch: generic
   merge_build_host: True  # [win]
   number: 0
-  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
-  build:
-
   host:
     - r-base
     - r-ggplot2 >=3.0
