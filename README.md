@@ -5,11 +5,9 @@ Home: https://github.com/ProjectMOSAIC/ggformula
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggformula-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides a formula interface to 'ggplot2' graphics.
-
-
 
 Current build status
 ====================
