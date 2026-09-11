@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggformula_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggformula/ggformula_{{ version }}.tar.gz
-  sha256: cdb6a3c46491cfe550b61e859e58b270d4a6bc2bd12792fb6152c372a694e812
+  sha256: a04341fd7f85bacd74bfcf52068fff7ad173e995179befe38d03f9f124e35573
 
 build:
   noarch: generic
